@@ -1,1 +1,1 @@
-console.log("This is my first alert!");
+alert("Welcome to the cinema!");
