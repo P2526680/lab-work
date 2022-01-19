@@ -2,6 +2,7 @@ body{
   background-image: url("background-img/background.png");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 h1{
   font-size: 40px;
