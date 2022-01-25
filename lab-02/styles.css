@@ -38,3 +38,6 @@ header, section, main {
     overflow-x: auto;
     overflow-y: auto;
 }
+body{
+  margin: 0;
+}
