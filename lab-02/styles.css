@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  background-color: white;
+  text-decoration: underline;
+  flex-direction:column;
+  flex-shrink: 0;
+  order: 2;
+  overflow:auto;
+}
+
+nav a {
+  background-color: blue;
+  color: white;
+  padding: 0.25em 0.5em;
+  transition: background-color 0.3s;
+}
+
+nav a:hover{
+  background-color: red;
+}
+
+section{
+  background-color: yellow;
+  overflow: auto;
+}
+header{
+  background-color: red;
+  padding: 5px;
+  display:block;
+  overflow:auto;
+}
+main{
+  display:flex;
+  overflow:auto;
+}
+header, section, main {
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
