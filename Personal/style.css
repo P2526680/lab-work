@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  background-image: url("background-img/background.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.moviePoster{
+  padding-left: 14em;
+  padding-top: 3em;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  float:left;
+}
+
+div{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 25px;
+}
+
+.movieTitle h2{
+  padding-top: 1.8em;
+  margin: 0;
+  font-size: 25px;
+}
+.movieDescription{
+  font-size: 22px;
+  text-align: justify;
+  padding-right: 10em;
+}
+.buttons{
+  display:flex;
+  gap: 1em;
+  justify-content: flex-end;
+  padding-right: 13.5em;
+}
+.buttons button{
+  font-size: 20px;
+  display: flex;
+  border-radius: 1em;
+}
+
+.buttons button:hover{
+  background-color: #fff4;
+  cursor: pointer;
+}
