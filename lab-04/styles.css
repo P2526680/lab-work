@@ -18,11 +18,14 @@ nav {
 
 nav a{
   padding: 0.5em 0;
-  color: dimgrey;
+  color: white;
   font-size: 2.5em;
   text-decoration: none;
 }
 
+nav a:hover{
+  color: blue;
+}
 p {
   text-align: justify;
   margin: 1em;
